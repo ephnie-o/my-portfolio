@@ -12,10 +12,7 @@ const AboutMe = () => {
                     <h2 className='subtitle'>About Me</h2>
                 </div>
                 <Row>
-                    <Col xs={12} md={6}>
-                        <Image className='photo photoAboutMe' src={professionalPhoto}/>
-                    </Col>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={12} lg={6}>
                         <div className='description'>
                             <p>I am Stephanie Odoom, a dedicated professional, seamlessly merging my passions for pharmaceuticals, fitness, and front-end web development. My diverse background in these fields provides me with a unique perspective and a broad skill set that can cater to a variety of needs.</p>
                             <h4 className='color'>Education</h4>
@@ -36,6 +33,9 @@ const AboutMe = () => {
                                 <li>UI/UX Designer: Designing and prototyping websites with Figma, creating user-centered interfaces and responsive designs that align with the latest trends and industry standards. My work includes crafting intuitive navigation, visually appealing layouts, and cohesive branding elements, ensuring an optimal user experience across different devices and platforms.</li>
                             </ul>
                         </div>
+                    </Col>
+                    <Col xs={12} md={12} lg={6}>
+                        <Image className='photo photoAboutMe' src={professionalPhoto}/>
                     </Col>
                 </Row>
             </Container>
