@@ -52,7 +52,7 @@ function goTop(){
                             </li>
                             {/* eslint-disable-next-line */}
                             <li>
-                                <a href='https://web.whatsapp.com/' target='_blank' rel='noopener noreferrer'>
+                                <a href='https://wa.me/+233209156415' target='_blank' rel='noopener noreferrer'>
                                     <i className="fa fa-whatsapp" aria-hidden="true"></i>
                                 </a>
                             </li>
@@ -64,7 +64,7 @@ function goTop(){
                             </li>
                             {/* eslint-disable-next-line */}
                             <li>
-                                <a href='https://web.telegram.org/k/' target='_blank' rel='noopener noreferrer'>
+                                <a href='tg://openmessage?user=+233209156415' target='_blank' rel='noopener noreferrer'>
                                     <i className="fa fa-telegram" aria-hidden="true"></i>
                                 </a>
                             </li>
