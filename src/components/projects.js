@@ -7,7 +7,7 @@ const Project =() => {
         <section className='project'>
             <Container>
                 <div>
-                    <h2 className='subtitle'>Project</h2>
+                    <h2 className='subtitle'>Projects</h2>
                 </div>
                 <Row>
                     <Col>

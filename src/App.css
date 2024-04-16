@@ -64,7 +64,7 @@
 
 .photo {
   width: 100%;
-  height: 100%;
+  height: auto;
   border-radius: 5%;
 }
 
@@ -270,19 +270,4 @@ img {
 
 .go-top:hover {
   background: #737577;
-}
-
-
-@media (max-width: 576px) {
-  .content, .topic, .slink {
-    font-size: 8px;
-    margin: 10px;
-  }
-}
-
-@media (max-width: 327px) {
-  .content, .topic, .slink {
-    font-size: 6px;
-    margin: 10px;
-  }
 }

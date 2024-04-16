@@ -12,10 +12,10 @@ const Services = () =>{
             <Container>
                 <div>
                     <h2 className='subtitle'>Services</h2>
-                    <p className='description center'>-Click on each image-</p>
+                    <p className='description center'>-Click on each image to view my services-</p>
                 </div>
                 <Row className='justify-content-between'>
-                    <Col xs={12} sm={6} md={4} lg={3} className='overlayContainer'>
+                    <Col xs={12} sm={5} md={3.5} lg={3} className='overlayContainer'>
                         <Image src={Tour} alt="Stephanie on tour" className='photo' />
                         <div className='overlay'>
                             <div className='text'>
@@ -24,7 +24,7 @@ const Services = () =>{
                             </div>
                         </div>
                     </Col>
-                    <Col xs={6} md={4} className='overlayContainer'>
+                    <Col xs={12} sm={5} md={3.5} lg={3} className='overlayContainer'>
                         <Image src={Award} alt="Stephanie winning an award" className='photo' />
                         <div className='overlay'>
                             <div className='text'>
@@ -35,7 +35,7 @@ const Services = () =>{
                             </div>
                         </div>
                     </Col>
-                    <Col xs={6} md={4} className='overlayContainer'>
+                    <Col xs={12} sm={5} md={3.5} lg={3} className='overlayContainer'>
                         <Image src={Gym} alt="Stephanie at the gym" className='photo' />
                         <div className='overlay'>
                             <div className='text'>
