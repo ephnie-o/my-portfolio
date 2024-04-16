@@ -35,7 +35,7 @@ const AboutMe = () => {
                         </div>
                     </Col>
                     <Col xs={12} md={12} lg={6}>
-                        <Image className='photo photoAboutMe' src={professionalPhoto}/>
+                        <Image className='photo photoAboutMe' src={professionalPhoto} alt='A photo of Stephanie Odoom'/>
                     </Col>
                 </Row>
             </Container>

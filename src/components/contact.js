@@ -37,7 +37,7 @@ function goTop(){
                         <ul>
                             {/* eslint-disable-next-line */}
                             <li className='telList'>
-                                <a href='tel:+233209156415'>
+                                <a href='tel:+233209156415' data-testid="phone-icon">
                                     <i className="fa fa-phone" aria-hidden="true"></i>
                                 </a>
                                 <a className='telLink' href='tel:+233209156415'>
@@ -46,31 +46,31 @@ function goTop(){
                             </li>
                             {/* eslint-disable-next-line */}
                             <li>
-                                <a href='mailto:stephanieodoom25@gmail.com?subject=Subject%20Here&body=Message%20Here'>
+                                <a href='mailto:stephanieodoom25@gmail.com?subject=Subject%20Here&body=Message%20Here' data-testid="email-icon">
                                     <i className="fa fa-envelope" aria-hidden="true"></i>
                                 </a>
                             </li>
                             {/* eslint-disable-next-line */}
                             <li>
-                                <a href='https://wa.me/+233209156415' target='_blank' rel='noopener noreferrer'>
+                                <a href='https://wa.me/+233209156415' target='_blank' rel='noopener noreferrer' data-testid="whatsApp-icon">
                                     <i className="fa fa-whatsapp" aria-hidden="true"></i>
                                 </a>
                             </li>
                             {/* eslint-disable-next-line */}
                             <li>
-                                <a href='https://www.linkedin.com/in/stephanie-odoom-ab5761125/' target='_blank' rel='noopener noreferrer'>
+                                <a href='https://www.linkedin.com/in/stephanie-odoom-ab5761125/' target='_blank' rel='noopener noreferrer' data-testid="linkedIn-icon">
                                     <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                                 </a>
                             </li>
                             {/* eslint-disable-next-line */}
                             <li>
-                                <a href='tg://openmessage?user=+233209156415' target='_blank' rel='noopener noreferrer'>
+                                <a href='tg://resolve?domain=Ephnie' target='_blank' rel='noopener noreferrer' data-testid="telegram-icon">
                                     <i className="fa fa-telegram" aria-hidden="true"></i>
                                 </a>
                             </li>
                             {/* eslint-disable-next-line */}
                             <li>
-                                <a href='https://twitter.com/_ephnie_' target='_blank' rel='noopener noreferrer'>
+                                <a href='https://twitter.com/_ephnie_' target='_blank' rel='noopener noreferrer'  data-testid="X-icon">
                                 <Image src={xIcon} width='35px' height='35px' className='xIcon'/>
                                 </a>
                             </li>
@@ -80,7 +80,7 @@ function goTop(){
                 </Row>
                 <p className='description'>Copyright &copy; Stephanie Odoom. All rights reserved.</p>
                 {
-                    showTopBtn && (<div className='go-top' onClick={goTop}></div>)
+                    showTopBtn && (<div className='go-top' data-testid="go-top" onClick={goTop}></div>)
                 }
             </Container>
         </section>
