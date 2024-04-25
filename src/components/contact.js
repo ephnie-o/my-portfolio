@@ -3,6 +3,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { useEffect, useState } from 'react';
 import xIcon from '../__assets__/images/xIcon.jpeg';
+import phone from '../__assets__/images/phone.jpeg';
+import mail from '../__assets__/images/mail.jpeg';
+import telegram from '../__assets__/images/telegram.png';
+import linkedin from '../__assets__/images/linkedin.jpeg';
+import whatsapp from '../__assets__/images/whatsapp.jpeg';
 import Image from 'react-bootstrap/Image';
 
 const Contact = () =>{
@@ -35,43 +40,39 @@ function goTop(){
                 <Row>
                     <Col>
                         <ul>
-                            {/* eslint-disable-next-line */}
                             <li className='telList'>
                                 <a href='tel:+233209156415' data-testid="phone-icon">
-                                    <i className="fa fa-phone" aria-hidden="true"></i>
+                                <Image src={phone} className='icon'/>
                                 </a>
                                 <a className='telLink' href='tel:+233209156415'>
                                     <p className='tel'>+233209156415</p>
                                 </a>
                             </li>
-                            {/* eslint-disable-next-line */}
                             <li>
                                 <a href='mailto:stephanieodoom25@gmail.com?subject=Subject%20Here&body=Message%20Here' data-testid="email-icon">
-                                    <i className="fa fa-envelope" aria-hidden="true"></i>
+                                <Image src={mail} className='icon'/>
                                 </a>
                             </li>
                             {/* eslint-disable-next-line */}
                             <li>
                                 <a href='https://wa.me/+233209156415' target='_blank' rel='noopener noreferrer' data-testid="whatsApp-icon">
-                                    <i className="fa fa-whatsapp" aria-hidden="true"></i>
+                                <Image src={whatsapp} className='icon'/>
                                 </a>
                             </li>
                             {/* eslint-disable-next-line */}
                             <li>
                                 <a href='https://www.linkedin.com/in/stephanie-odoom-ab5761125/' target='_blank' rel='noopener noreferrer' data-testid="linkedIn-icon">
-                                    <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                                <Image src={linkedin} className='icon'/>
                                 </a>
                             </li>
-                            {/* eslint-disable-next-line */}
                             <li>
                                 <a href='tg://resolve?domain=Ephnie' target='_blank' rel='noopener noreferrer' data-testid="telegram-icon">
-                                    <i className="fa fa-telegram" aria-hidden="true"></i>
+                                <Image src={telegram} className='icon'/>
                                 </a>
                             </li>
-                            {/* eslint-disable-next-line */}
                             <li>
                                 <a href='https://twitter.com/_ephnie_' target='_blank' rel='noopener noreferrer'  data-testid="X-icon">
-                                <Image src={xIcon} width='35px' height='35px' className='xIcon'/>
+                                <Image src={xIcon} className='icon'/>
                                 </a>
                             </li>
                             {/* eslint-disable-next-line */}

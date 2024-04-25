@@ -190,49 +190,13 @@ img {
   text-decoration: none;
 }
 
-.fa:hover {
- box-shadow: 5px 5px 5px black;
- border-radius: 10%;
-}
-
-.fa-phone {
-  color: black;
-}
-
-.tel:hover {
-  text-shadow: 5px 5px 5px black;
-}
-
-.fa-envelope {
-  color: #282727;
-}
-
-.fa-whatsapp {
-  color: #5fec6a;
-  padding: 5px;
-  border-radius: 50%;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.fa-linkedin-square {
-  color: #0b66c2;
-  border-radius: 10%;
-}
-
-.fa-telegram {
-  color: #44baf9;
-  padding: 5px;
-  border-radius: 10%;
-}
-
-.xIcon {
+.icon {
   border-radius: 10%;
   width: 17px;
   height: auto;
 }
 
-.xIcon:hover {
+.icon:hover, .tel:hover {
   box-shadow: 5px 5px 5px black;
 }
 
