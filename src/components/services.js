@@ -41,12 +41,11 @@ const Services = () =>{
                             <div className='text'>
                                 <h4 className='topic'>Fitness Consultation</h4>
                                 <p className='content'>
-                                    As a gym enthusiast, I can offer guidance on workout plans, fitness goals, and nutrition to help you lead a healthier lifestyle.
+                                    As a gym enthusiast, I can offer guidance on workout plans, fitness goals, and nutrition to help you lead a healthier lifestyle.<b>Click on the link below to access my workout website.</b>
                                     <br />
                                     <br />
-                                    <i><b>*Workout website coming soon.*</b></i>
+                                    <p className='content'><a className='slink' href='https://actifitness.netlify.app/' target='_blank' rel='noopener noreferrer'>www.actifitness.com</a></p>
                                 </p>
-                                {/* Click on the link below to access my workout website */}
                             </div>
                         </div>
                     </Col>
