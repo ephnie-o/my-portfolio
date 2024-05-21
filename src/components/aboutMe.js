@@ -22,15 +22,23 @@ const AboutMe = () => {
                             </ul>
                             <h4 className='color'>Skills</h4>
                             <ul>
-                                <li>Proficient in ReactJS for front-end web development.</li>
+                                <li>Experienced in React.js for building reusable UI components and managing state in web applications.</li>
+                                <li>Skilled in Next.js for dynamic web apps with server-side rendering.</li>
+                                <li>Proficient in Tailwind CSS for efficient and responsive styling.</li>
+                                <li>Experienced in Vue.js for interactive and scalable web apps.</li>
+                                <li>Proficient in Nuxt.js for server-side rendered and static websites.</li>
+                                <li>Expertise in CSS3 for modern styling and animations.</li>
+                                <li>Well-versed in HTML5 for structured and accessible web content.</li>
+                                <li>Proficiency in JavaScript, utilizing it to enhance web application functionality and create interactive user experiences.</li>
+                                <li>Strong management skills, including project management, team coordination, and effective communication to drive successful project outcomes.</li>
                                 <li>Comprehensive knowledge in pharmaceuticals.</li>
                                 <li>Fitness enthusiast with extensive understanding of workout regimens and nutrition.</li>
                             </ul>
                             <h4 className='color'>Work Experience</h4>
                             <ul>
-                                <li>Assistant Managing Pharmacist at Stereda Pharmacy: I led comprehensive technology-driven initiatives to streamline pharmacy operations, ensured regulatory compliance, optimized inventory management, enhanced patient counseling, provided technical support, analysed data for informed decision-making, and fostered collaborative healthcare efforts.</li>
-                                <li>Front-End Developer: I have worked on multiple website development projects using ReactJS, creating responsive and user-friendly interfaces.</li>
-                                <li>UI/UX Designer: Designing and prototyping websites with Figma, creating user-centered interfaces and responsive designs that align with the latest trends and industry standards. My work includes crafting intuitive navigation, visually appealing layouts, and cohesive branding elements, ensuring an optimal user experience across different devices and platforms.</li>
+                                <li><b>Assistant Managing Pharmacist at Stereda Pharmacy:</b> I led comprehensive technology-driven initiatives, optimizing operations, ensuring compliance, and fostering collaborative healthcare efforts. This included spearheading the development and implementation of a tailored ERP system, overseeing its conception, development, and front-end interface design to enhance efficiency and user experience.</li>
+                                <li><b>Front-End Developer:</b> I have worked on multiple website development projects using ReactJS, NextJS, VueJs, NuxtJs with React Bootstrap, Tailwind CSS and CSS3, creating responsive and user-friendly interfaces.</li>
+                                <li><b>UI/UX Designer:</b> Designing and prototyping websites with Figma, creating user-centered interfaces and responsive designs that align with the latest trends and industry standards. My work includes crafting intuitive navigation, visually appealing layouts, and cohesive branding elements, ensuring an optimal user experience across different devices and platforms.</li>
                             </ul>
                         </div>
                     </Col>

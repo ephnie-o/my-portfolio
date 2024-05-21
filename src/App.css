@@ -235,3 +235,14 @@ img {
 .go-top:hover {
   background: #737577;
 }
+
+.figma {
+  color: #6b0f0f;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.figma:hover {
+  color: darkblue;
+}
